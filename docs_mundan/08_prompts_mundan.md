@@ -45,3 +45,6 @@
 ## Reflexión final
 
 El uso de Claude fue útil para estructurar el contenido legal y generar componentes React funcionales. La herramienta requiere verificación en detalles específicos como penas exactas y fechas de vigencia normativa. La calidad del resultado dependió directamente de la precisión del prompt: describir el caso, la norma específica y el tipo de análisis requerido produjo resultados aprovechables; prompts vagos habrían generado contenido genérico inutilizable.
+
+En cuanto a la modalidad de uso, existe una diferencia clave entre el chatbot externo y el agente integrado: Claude en navegador no tiene acceso al proyecto, por lo que cada prompt debió incluir el contexto completo del caso manualmente (nombre del incidente, actores, normas específicas). Un agente como GitHub Copilot, en cambio, lee directamente los archivos abiertos en VS Code, lo que reduce prompts repetitivos y errores de integración. Para esta evaluación se optó por el chatbot externo al no contar con Copilot activo, lo que exigió mayor precisión en cada prompt para compensar la falta de contexto automático del proyecto.
+
