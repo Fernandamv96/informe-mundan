@@ -29,15 +29,27 @@ INACAP Valparaíso · Docente: Rubén Schnettler L. · Otoño 2026
 ## 🚀 Cómo correr el proyecto
 
 ```bash
-# 1. Instalar dependencias
+# ── 1. Clonar el repositorio ──────────────────────────
+git clone https://github.com/Fernandamv96/informe-mundan
+cd informe-mundan
+
+# ── 2. Instalar dependencias ──────────────────────────
 npm install
 
-# 2. Iniciar servidor de desarrollo
+# ── 3. Servidor de desarrollo ─────────────────────────
 npm run dev
 # → http://localhost:5173
 
-# 3. Build para producción
+# ── 4. Build para producción ──────────────────────────
 npm run build
+# → genera carpeta dist/
+
+# ── 5. Preview del build ──────────────────────────────
+npm run preview
+# → http://localhost:4173
+
+# ── 6. Deploy en Vercel ───────────────────────────────
+npx vercel --prod
 ```
 
 ---
