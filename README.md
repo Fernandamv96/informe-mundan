@@ -21,7 +21,7 @@ Proyecto web informativo desarrollado con tecnologías frontend estándar. Imple
 
 ## 🚀 Demo
 
-> 🌐 [Ver en vivo](#) ← *(agrega tu link de Vercel/GitHub Pages aquí)*
+> 🌐 **[Ver en vivo → tv95ylnyccb2.space.minimax.io](https://tv95ylnyccb2.space.minimax.io/)**
 
 ---
 
