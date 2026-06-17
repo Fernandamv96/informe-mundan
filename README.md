@@ -1,101 +1,72 @@
-# 🛡️ informe_mundan — WannaCry 2017
+<div align="center">
 
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-v3-38BDF8?logo=tailwindcss&logoColor=white)
-![License](https://img.shields.io/badge/Licencia-Educacional-green)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:BD93F9,100:FF79C6&height=180&section=header&text=informe-mundan&fontSize=50&fontColor=ffffff&fontAlignY=40&desc=Proyecto%20Web%20Frontend&descAlignY=62&descSize=16&animation=fadeIn" width="100%"/>
 
-Análisis legal del caso **WannaCry 2017** presentado como aplicación web en React.  
-Evaluación Sumativa N°2 · TI3034 Fundamentos de Seguridad de la Información  
-INACAP Valparaíso · Docente: Rubén Schnettler L. · Otoño 2026
+<br/>
 
----
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Activo-50FA7B?style=for-the-badge)
 
-## 📋 Contenido del informe
-
-| # | Archivo | Criterio | Descripción |
-|---|---------|----------|-------------|
-| 1 | `01_resumen_mundan.md` | Transversal | Resumen ejecutivo del caso |
-| 2 | `02_marco_mundan.md` | 2.1.1 | Marco normativo nacional e internacional |
-| 3 | `03_delitos_mundan.md` | 2.1.2 | Tipificación Ley 21.459 |
-| 4 | `04_comparacion_mundan.md` | 2.1.3 | Comparación de marcos regulatorios |
-| 5 | `05_responsabilidades_mundan.md` | 2.1.4 | Responsabilidades legales |
-| 6 | `06_datos_mundan.md` | 2.1.5 | Datos personales y derechos ARCO |
-| 7 | `07_conclusiones_mundan.md` | Transversal | Conclusiones y recomendaciones |
-| 8 | `08_prompts_mundan.md` | Transversal | Bitácora de uso de IA |
+</div>
 
 ---
 
-## 🚀 Cómo correr el proyecto
+## 📖 Descripción
+
+Proyecto web informativo desarrollado con tecnologías frontend estándar. Implementa estructura HTML semántica, estilos CSS responsivos y lógica JavaScript para la presentación dinámica de contenido.
+
+---
+
+## 🚀 Demo
+
+> 🌐 [Ver en vivo](#) ← *(agrega tu link de Vercel/GitHub Pages aquí)*
+
+---
+
+## 🛠️ Tecnologías
+
+| Tecnología | Uso |
+|-----------|-----|
+| HTML5 | Estructura semántica |
+| CSS3 | Estilos y diseño responsivo |
+| JavaScript | Interactividad y lógica |
+
+---
+
+## ⚙️ Instalación
 
 ```bash
-# ── 1. Clonar el repositorio ──────────────────────────
-git clone https://github.com/Fernandamv96/informe-mundan
+# 1. Clonar el repositorio
+git clone https://github.com/Fernandamv96/informe-mundan.git
+
+# 2. Entrar al directorio
 cd informe-mundan
 
-# ── 2. Instalar dependencias ──────────────────────────
-npm install
-
-# ── 3. Servidor de desarrollo ─────────────────────────
-npm run dev
-# → http://localhost:5173
-
-# ── 4. Build para producción ──────────────────────────
-npm run build
-# → genera carpeta dist/
-
-# ── 5. Preview del build ──────────────────────────────
-npm run preview
-# → http://localhost:4173
-
-# ── 6. Deploy en Vercel ───────────────────────────────
-npx vercel --prod
+# 3. Abrir en el navegador
+open index.html
+# o arrastra el archivo a tu navegador
 ```
 
 ---
 
 ## 📁 Estructura del proyecto
-informe_mundan/
-├── docs_mundan/              # Análisis legal en Markdown
-│   ├── 01_resumen_mundan.md
-│   ├── 02_marco_mundan.md
-│   ├── 03_delitos_mundan.md
-│   ├── 04_comparacion_mundan.md
-│   ├── 05_responsabilidades_mundan.md
-│   ├── 06_datos_mundan.md
-│   ├── 07_conclusiones_mundan.md
-│   └── 08_prompts_mundan.md
-├── src/
-│   ├── components/           # Un componente por sección
-│   │   ├── Resumen.jsx
-│   │   ├── Marco.jsx
-│   │   ├── Delitos.jsx
-│   │   ├── Comparacion.jsx
-│   │   ├── Responsabilidades.jsx
-│   │   ├── Datos.jsx
-│   │   ├── Conclusiones.jsx
-│   │   └── Prompts.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-└── postcss.config.js
+
+```
+informe-mundan/
+├── index.html       # Página principal
+├── style.css        # Estilos
+├── script.js        # Lógica JavaScript
+└── README.md        # Documentación
+```
 
 ---
 
-## 🔗 Enlaces
+## 👩‍💻 Autora
 
-- 📦 Repositorio: `https://github.com/Fernandamv96/informe-mundan`
-- 🌐 Sitio desplegado: `https://informe-mundan.vercel.app`
+**Fernanda Mv** — [@Fernandamv96](https://github.com/Fernandamv96)
 
----
-
-## ⚖️ Normativa analizada
-
-- **Ley 21.459** — Delitos Informáticos (Chile, 2022)
-- **Ley 19.628** — Protección de Datos Personales (Chile)
-- **GDPR** — Reglamento General de Protección de Datos (UE)
-- **ISO/IEC 27001** — Gestión de Seguridad de la Información
-- **Convenio de Budapest** — Cibercriminalidad (2001)
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF79C6,100:0d1117&height=100&section=footer" width="100%"/>
+</div>
