@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:BD93F9,100:FF79C6&height=180&section=header&text=informe-mundan&fontSize=50&fontColor=ffffff&fontAlignY=40&desc=Caso%20WannaCry%202017%20%E2%80%94%20An%C3%A1lisis%20Legal&descAlignY=62&descSize=16&animation=fadeIn" width="100%" alt="informe-mundan: Caso WannaCry 2017, análisis legal"/>
 
 [![CI](https://github.com/Fernandamv96/informe-mundan/actions/workflows/ci.yml/badge.svg)](https://github.com/Fernandamv96/informe-mundan/actions/workflows/ci.yml)
-![React](https://img.shields.io/badge/React-19-BD93F9?logo=react&logoColor=white)
+![React](https://img.shields.io/badge/React-18-BD93F9?logo=react&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3-FF79C6?logo=tailwindcss&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-BD93F9)](LICENSE)
 
@@ -34,7 +34,7 @@ Convierte un informe académico extenso en una lectura navegable por secciones, 
 
 ## Stack
 
-React 19 · Vite · Tailwind CSS · lucide-react · Vercel
+React 18 · Vite · Tailwind CSS · lucide-react · Vercel
 
 ## Cómo correrlo localmente
 
