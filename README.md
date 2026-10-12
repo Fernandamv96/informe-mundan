@@ -1,72 +1,70 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:BD93F9,100:FF79C6&height=180&section=header&text=informe-mundan&fontSize=50&fontColor=ffffff&fontAlignY=40&desc=Proyecto%20Web%20Frontend&descAlignY=62&descSize=16&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:BD93F9,100:FF79C6&height=180&section=header&text=informe-mundan&fontSize=50&fontColor=ffffff&fontAlignY=40&desc=Caso%20WannaCry%202017%20%E2%80%94%20An%C3%A1lisis%20Legal&descAlignY=62&descSize=16&animation=fadeIn" width="100%" alt="informe-mundan: Caso WannaCry 2017, análisis legal"/>
 
-<br/>
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Activo-50FA7B?style=for-the-badge)
+[![CI](https://github.com/Fernandamv96/informe-mundan/actions/workflows/ci.yml/badge.svg)](https://github.com/Fernandamv96/informe-mundan/actions/workflows/ci.yml)
+![React](https://img.shields.io/badge/React-19-BD93F9?logo=react&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3-FF79C6?logo=tailwindcss&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-BD93F9)](LICENSE)
 
 </div>
 
----
+Informe web interactivo sobre el **ataque de ransomware WannaCry (mayo de 2017)** desde la perspectiva legal: marco normativo, delitos informáticos involucrados, comparación entre jurisdicciones, responsabilidades y protección de datos personales. Ramo **TI3034 · Fundamentos de Seguridad de la Información (INACAP Valparaíso)**.
 
-## 📖 Descripción
+**Demo:** <https://informe-mundan.vercel.app>
 
-Proyecto web informativo desarrollado con tecnologías frontend estándar. Implementa estructura HTML semántica, estilos CSS responsivos y lógica JavaScript para la presentación dinámica de contenido.
+![Resumen ejecutivo del caso WannaCry](docs/preview.png)
 
----
+## ¿Qué problema resuelve?
 
-## 🚀 Demo
+Convierte un informe académico extenso en una lectura navegable por secciones, donde cada pestaña responde una pregunta del análisis (qué pasó, qué ley aplica, quién responde y qué se aprende).
 
-> 🌐 **[Ver en vivo → tv95ylnyccb2.space.minimax.io](https://tv95ylnyccb2.space.minimax.io/)**
+## Secciones
 
----
+| Pestaña | Contenido | Fuente en el repo |
+|---------|-----------|-------------------|
+| Resumen | Fecha, alcance, vector (EternalBlue / MS17-010) e impacto | `docs_mundan/01_resumen_mundan.md` |
+| Marco normativo | Leyes y convenios aplicables | `02_marco_mundan.md` |
+| Delitos | Tipificación de las conductas | `03_delitos_mundan.md` |
+| Comparación | Diferencias entre legislaciones | `04_comparacion_mundan.md` |
+| Responsabilidades | Atacantes, organizaciones y proveedores | `05_responsabilidades_mundan.md` |
+| Datos personales | Impacto en protección de datos | `06_datos_mundan.md` |
+| Conclusiones | Lecciones del caso | `07_conclusiones_mundan.md` |
+| Bitácora IA | Prompts usados durante el trabajo | `08_prompts_mundan.md` |
 
-## 🛠️ Tecnologías
+## Stack
 
-| Tecnología | Uso |
-|-----------|-----|
-| HTML5 | Estructura semántica |
-| CSS3 | Estilos y diseño responsivo |
-| JavaScript | Interactividad y lógica |
+React 19 · Vite · Tailwind CSS · lucide-react · Vercel
 
----
-
-## ⚙️ Instalación
+## Cómo correrlo localmente
 
 ```bash
-# 1. Clonar el repositorio
 git clone https://github.com/Fernandamv96/informe-mundan.git
-
-# 2. Entrar al directorio
 cd informe-mundan
-
-# 3. Abrir en el navegador
-open index.html
-# o arrastra el archivo a tu navegador
+npm ci
+npm run dev       # http://localhost:5173
+npm run lint      # ESLint
+npm run build     # build de producción en dist/
 ```
 
----
+## Estructura del proyecto
 
-## 📁 Estructura del proyecto
-
+```text
+├── src/
+│   ├── App.jsx              # encabezado + navegación por pestañas
+│   └── components/          # Resumen, Marco, Delitos, Comparacion, Responsabilidades,
+│                            # Datos, Conclusiones, Prompts
+├── docs_mundan/             # el informe en Markdown (fuente del contenido)
+└── index.html
 ```
-informe-mundan/
-├── index.html       # Página principal
-├── style.css        # Estilos
-├── script.js        # Lógica JavaScript
-└── README.md        # Documentación
-```
 
----
+## Qué aprendí
 
-## 👩‍💻 Autora
+- A analizar un incidente desde el derecho y no solo desde lo técnico: tipificación, jurisdicción y responsabilidades.
+- Que un parche disponible (MS17-010) no sirve si no hay gestión de parches.
+- A estructurar un informe largo como una interfaz navegable en React.
+- A documentar el uso de IA en un trabajo académico (bitácora de prompts).
 
-**Fernanda Mv** — [@Fernandamv96](https://github.com/Fernandamv96)
+## Licencia
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF79C6,100:0d1117&height=100&section=footer" width="100%"/>
-</div>
+[MIT](LICENSE) © 2026 Fernanda (Fernandamv96)
